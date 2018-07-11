@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+*{
+	font-family: 'Quicksand', sans-serif;	
+}
+.logtext{
+	font-size: 40px;
+	text-align: center;
+}
+input {
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+	margin-left: 10vw;
+}
+.login {
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	padding: 150px;
+}
+img {
+	margin-left: 14vw;
+}
+button {
+	border: none;
+	font-size: 30px;
+	background: #008744;
+	cursor: pointer;
+	padding: 20px 50px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	outline: none;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #0057e7;
+	margin-left:16vw;
+}
+button:hover {
+	color: #d62d20;
+	background: #ffa700;
+}
+.logged {
+	font-size: 72px;
+	text-align: center;
+	margin-top: 20vw;
+}
